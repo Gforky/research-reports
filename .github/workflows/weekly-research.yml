@@ -2,8 +2,8 @@ name: Weekly AI Research Report
 
 on:
   schedule:
-    # Every Monday at 9:00 AM UTC = 17:00 CST
-    - cron: '0 9 * * 1'
+    # Every Saturday at 5:00 AM CST = 21:00 UTC Friday
+    - cron: '0 21 * * 5'
   workflow_dispatch:
     # Allow manual trigger
 
